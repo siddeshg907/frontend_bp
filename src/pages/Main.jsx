@@ -31,7 +31,7 @@ function Main() {
         console.error("Error fetching data:", error);
         setLoading(false);
       });
-  }, []);
+  }, [userID]);
 
   
 
